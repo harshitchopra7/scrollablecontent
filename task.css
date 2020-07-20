@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.carousel{
+    transform: translateY(-80px);  
+    height: 700px;
+    perspective: 600px;
+
+}
+.carousel .carousel-item{
+    width: 400px;
+}
+.carousel .carousel-item img{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    color: darksalmon;
+}
